@@ -1,0 +1,1 @@
+export async function GET(){return new Response(JSON.stringify({status:'ok',time:Date.now()}),{status:200})}
